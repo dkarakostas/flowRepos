@@ -444,10 +444,10 @@ body {
 .logo-wrapper {
   text-align: center;
   display: block;
-  padding-top: 200px; }
+  padding-top: 150px; }
  @media only screen and (min-width: 768px) {
    .logo-wrapper {
-     padding-top: 150px;} }
+     padding-top: 200px;} }
   .logo-wrapper img {
     width: 85%; }
     @media only screen and (min-width: 1024px) {
