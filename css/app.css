@@ -444,15 +444,26 @@ body {
   display: block;
   padding-top: 200px; }
   .logo-wrapper img {
-    width: 50%; }
+    width: 85%; }
+    @media only screen and (min-width: 1024px) {
+      .logo-wrapper img {
+        width: 65%; } }
 
 .text-box {
   text-align: center;
   background-color: transparent;
   color: #fff;
-  margin-top: 50px;
-  font-size: 22px;
+  margin-top: 25px;
+  font-size: 16px;
   font-weight: 600; }
+  @media only screen and (min-width: 768px) {
+    .text-box {
+      margin-top: 40px;
+      font-size: 18px; } }
+  @media only screen and (min-width: 1024px) {
+    .text-box {
+      margin-top: 50px;
+      font-size: 22px; } }
   .text-box span {
     background-color: #5CE0E6;
     color: #282e34;
