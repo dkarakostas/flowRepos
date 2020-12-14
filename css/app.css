@@ -385,20 +385,24 @@ body, html {
   background-image: url("/images/flow-img1.jpg"); }
 
 .section-contact {
-  padding: 155px 0 50px;
+  padding: 130px 0 50px;
   height: 65vh;
   text-align: center; }
+  @media only screen and (min-width: 768px) {
+    .section-contact {
+      padding: 155px 0 50px; } }
   .section-contact .text-box {
     text-align: center;
     background-color: transparent;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 10px;
     font-size: 32px;
     font-weight: 600;
     margin-bottom: 40px; }
     @media only screen and (min-width: 768px) {
       .section-contact .text-box {
-        font-size: 42px; } }
+        font-size: 42px;
+        margin-top: 50px; } }
     .section-contact .text-box span {
       background-color: #5CE0E6;
       color: #282e34;
